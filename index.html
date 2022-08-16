@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Weather Dashboard</h1>
+  </header>
+
+  <main class="columns">
+  <div class="field column is-one-quarter">
+    <label class="label is-large">Search for a City:</label>
+    <p class="field control has-icons-left">
+      <input class="input" type="text" id="city" placeholder="Atlanta">
+      <span class="icon is-left">
+        <i class="fas fa-search" aria-hidden="true"></i>
+      </span>
+    </p>
+    <p class="field control">
+      <a class="button is-info is-fullwidth" id="fetch-button">Search</a>
+    </p>
+  </div>
+
+    
+    <div class="column is-three-quarters" id="city-data">
+      <p id="currentDay" class="lead"></p>
+      <!-- <h1 class="selectedCity">Example</h1> -->
+  </main>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script type="text/javascript" src="./assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+* {
+  font-family: 'Mulish', sans-serif;
+}
+
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+h2, p {
+  font-size: 2rem;
+}
+
+
+.header {
+  display: flex;
+  width: 100vw;
+  height: 7em;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, lightblue, darkblue);
+  color: white;
+  margin-bottom: 1rem;
+}
+
+main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
